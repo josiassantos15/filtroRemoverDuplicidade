@@ -25,7 +25,7 @@ const arrayExemple = [
 // Exemplo 2
 const arrayExemple = ['Blue', 'Red', 'Pink', 'Blue'];
 
-const ArrayFiltered = [...new Set(array)];
+const ArrayFiltered = [...new Set(arrayExemple)];
 
 console.log(ArrayFiltered); 
 
