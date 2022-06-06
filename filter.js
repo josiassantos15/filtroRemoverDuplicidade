@@ -30,3 +30,32 @@ const ArrayFiltered = [...new Set(arrayExemple)];
 console.log(ArrayFiltered); 
 
 // ['Blue', 'Red', 'Pink']
+
+
+const result = [
+	{
+		"id": "0",
+		"name": "ADAM OLIVEIRA CAMPOS",
+		"age": "30"
+
+	},
+	{
+		"id": "1",
+		"name": "ADAMILSON SILVA DE OLIVEIRA",
+		"age": "25"
+	},
+	{
+		"id": "5",
+		"name": "ADILSON PEREIRA DE OLIVEIRA",
+		"age": "46"
+	}
+]
+const newArray = result.filter(
+        item => item.id !== '0' && item.id !== '1' )
+
+console.log(newArray)
+// [{
+// 	"id": "5",
+// 	"name": "ADILSON PEREIRA DE OLIVEIRA",
+// 	"age": "46"
+// }]
